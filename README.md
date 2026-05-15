@@ -9,21 +9,21 @@
 
 ```
 lab3/
-├── lab3.ipynb              # основной ноутбук
-├── annotations.xml         # оригинальная разметка (CVAT XML 1.1)
-├── annotations/            # COCO JSON (генерируется ноутбуком)
+├── lab3.ipynb
+├── annotations.xml
+├── annotations/
 │   ├── coco.json
 │   ├── train.coco.json
 │   ├── val.coco.json
 │   └── test.coco.json
 ├── frames/
-│   ├── input/              # кадры из input.mp4
-│   └── output/             # кадры из output.mp4
-├── input.mp4               # оригинальное видео без разметки
-├── output.mp4              # видео с нарисованными bbox'ами
-├── output_result.mp4       # видео с извлечённой разметкой (генерируется)
-├── predictions.mp4         # видео с предсказаниями модели (генерируется)
-├── best_model.pth          # веса лучшей модели (генерируется)
+│   ├── input/
+│   └── output/
+├── input.mp4
+├── output.mp4
+├── output_result.mp4
+├── predictions.mp4
+├── best_model.pth
 └── README.md
 ```
 
