@@ -1,5 +1,5 @@
-*.mp4
 *.pth
 frames/
+annotations/
 .ipynb_checkpoints/
 __pycache__/
